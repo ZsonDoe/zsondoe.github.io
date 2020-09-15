@@ -1,0 +1,76 @@
+.color1{    background-color: #FFFFFF;  }   
+.color2{    background-color: #FF6907;  }   
+.color3{    background-color: #00A75D;  }   
+.color4{    background-color: #B60101;  }
+.color5{    background-color: #213DFD;  }
+.color6{    background-color: #FFD500;  }
+
+#cubeFields > div {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #000;
+}
+
+#cubeFields span {
+    display: none;
+}
+
+.field1 {
+    transform: rotateX(-90deg) translateX(0px) translateY(30px) translateZ(-60px);
+    -moz-transform: rotateX(-90deg) translateX(0px) translateY(30px) translateZ(-60px);
+    -webkit-transform: rotateX(-90deg) translateX(0px) translateY(30px) translateZ(-60px);
+}
+.field2 {   transform: rotateX(-90deg) translateX(30px) translateY(30px) translateZ(-60px); }
+.field3 {   transform: rotateX(-90deg) translateX(60px) translateY(30px) translateZ(-60px); }
+.field4 {   transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(-60px); }
+.field5 {   transform: rotatex(-90deg) translateX(30px) translateY(0px) translateZ(-60px); }
+.field6 {   transform: rotateX(-90deg) translateX(60px) translateY(0px) translateZ(-60px); }
+.field7 {   transform: rotateX(-90deg) translateX(0px) translateY(-30px) translateZ(-60px); }
+.field8 {   transform: rotateX(-90deg) translateX(30px) translateY(-30px) translateZ(-60px); }
+.field9 {   transform: rotateX(-90deg) translateX(60px) translateY(-30px) translateZ(-60px); }
+.field10 {  transform: rotateY(-90deg) translateX(-30px) translateY(-45px) translateZ(15px); }
+.field11 {  transform: rotateY(-90deg) translateX(0px) translateY(-45px) translateZ(15px); }
+.field12 {  transform: rotateY(-90deg) translateX(30px) translateY(-45px) translateZ(15px); }
+.field13 {  transform: rotateY(-90deg) translateX(-30px) translateY(-15px) translateZ(15px); }
+.field14 {  transform: rotateY(-90deg) translateX(0px) translateY(-15px) translateZ(15px); }
+.field15 {  transform: rotateY(-90deg) translateX(30px) translateY(-15px) translateZ(15px); }
+.field16 {  transform: rotateY(-90deg) translateX(-30px) translateY(15px) translateZ(15px); }
+.field17 {  transform: rotateY(-90deg) translateX(0px) translateY(15px) translateZ(15px); }
+.field18 {  transform: rotateY(-90deg) translateX(+30px) translateY(15px) translateZ(15px); }
+.field19 {  transform: translateX(0px) translateY(-45px) translateZ(45px); }
+.field20 {  transform: translateX(30px) translateY(-45px) translateZ(45px); }
+.field21 {  transform: translateX(60px) translateY(-45px) translateZ(45px); }
+.field22 {  transform: translateX(0px) translateY(-15px) translateZ(45px); }
+.field23 {  transform: translateX(30px) translateY(-15px) translateZ(45px); }
+.field24 {  transform: translateX(60px) translateY(-15px) translateZ(45px); }
+.field25 {  transform: translateX(0px) translateY(15px) translateZ(45px); }
+.field26 {  transform: translateX(30px) translateY(15px) translateZ(45px);  
+.field27 {  transform: translateX(60px) translateY(15px) translateZ(45px); }
+.field28 {  transform: rotateY(-90deg) translateX(30px) translateY(-45px) translateZ(-75px); }
+.field29 {  transform: rotateY(-90deg) translateX(0px) translateY(-45px) translateZ(-75px); }
+.field30 {  transform: rotateY(-90deg) translateX(-30px) translateY(-45px) translateZ(-75px); }
+.field31 {  transform: rotateY(-90deg) translateX(30px) translateY(-15px) translateZ(-75px); }
+.field32 {  transform: rotateY(-90deg) translateX(0px) translateY(-15px) translateZ(-75px); }
+.field33 {  transform: rotateY(-90deg) translateX(-30px) translateY(-15px) translateZ(-75px); }
+.field34 {  transform: rotateY(-90deg) translateX(30px) translateY(15px) translateZ(-75px); }
+.field35 {  transform: rotateY(-90deg) translateX(0px) translateY(15px) translateZ(-75px); }
+.field36 {  transform: rotateY(-90deg) translateX(-30px) translateY(15px) translateZ(-75px); }
+.field37 {  transform: translateX(60px) translateY(-45px) translateZ(-45px); }
+.field38 {  transform: translateX(30px) translateY(-45px) translateZ(-45px); }
+.field39 {  transform: translateX(0px) translateY(-45px) translateZ(-45px); }
+.field40 {  transform: translateX(60px) translateY(-15px) translateZ(-45px); }
+.field41 {  transform: translateX(30px) translateY(-15px) translateZ(-45px); }
+.field42 {  transform: translateX(0px) translateY(-15px) translateZ(-45px); }
+.field43 {  transform: translateX(60px) translateY(15px) translateZ(-45px); }
+.field44 {  transform: translateX(30px) translateY(15px) translateZ(-45px); }
+.field45 {  transform: translateX(0px) translateY(15px) translateZ(-45px); }
+.field46 {  transform: rotateX(-90deg) translateX(0px) translateY(-30px) translateZ(30px); }
+.field47 {  transform: rotateX(-90deg) translateX(30px) translateY(-30px) translateZ(30px); }
+.field48 {  transform: rotateX(-90deg) translateX(60px) translateY(-30px) translateZ(30px); }
+.field49 {  transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(30px); }
+.field50 {  transform: rotateX(-90deg) translateX(30px) translateY(0px) translateZ(30px); }
+.field51 {  transform: rotateX(-90deg) translateX(60px) translateY(0px) translateZ(30px); }
+.field52 {  transform: rotateX(-90deg) translateX(0px) translateY(30px) translateZ(30px); }
+.field53 {  transform: rotateX(-90deg) translateX(30px) translateY(30px) translateZ(30px); }
+.field54 {  transform: rotateX(-90deg) translateX(60px) translateY(30px) translateZ(30px); }
