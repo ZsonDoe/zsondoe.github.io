@@ -1,4 +1,0 @@
-- Buy sugar
-- Buy bread
-- Buy milk
-- Buy whatyouwant

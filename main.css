@@ -1,28 +1,30 @@
-@font-face {
-    font-family: "DancingScript";
-src: url(/font-families/DncingScript/static/DancingScript-Regular.ttf);
-font-weight: 300;
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    width: 70%;
+    font-weight: 300;
+    margin: auto;
+    color: darkgrey;
 }
 
-.theFirst {
-font-size: 30px;
-font-family: 'DancingScript-Regular.ttf', 'Courier New', Courier, monospace;
-text-align: center;
-margin: 0 425px 0 425px;
-
-}
-
-body {
-    background-image: url(pictures/paperbg.jpg), url(pictures/wood.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: fixed, fixed;
-    background-position: center, center;
-    background-size: contain, cover;
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: darkgrey;
+    text-align: center;
 }
 
 #signiture {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-family: 'Parisienne', cursive;
+    color: darkgrey;
+    font-size: 24px;
 }
 
+#p-bold {
+    font-weight: bold;
+}
+
+body {
+    background: url(/assets/darkness2.jfif) center center;
+}

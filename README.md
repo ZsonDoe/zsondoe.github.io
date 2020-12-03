@@ -1,2 +1,2 @@
-# zsondoe.github.io
-Test page
+# simple-quote-page
+A simple quote psge for practise GitHub
