@@ -1,0 +1,36 @@
+#nav {
+    margin: 10px 0;
+}
+
+#nav ul {
+    overflow: hidden;
+    background: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+float: left;
+}
+
+#nav li:last-child {
+float: right;
+}
+
+#nav a {
+    display: block;
+    background: #333;
+    text-decoration: none;
+    color: darkgray;
+    padding: 0.7em 2em;
+    font-weight: bold;
+}
+
+#nav a:hover {
+background: #555;
+}
+
+#nav a.active {
+background: ivory;
+}
