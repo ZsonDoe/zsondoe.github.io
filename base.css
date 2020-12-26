@@ -1,3 +1,22 @@
+/*layout.css, component.css*/
+
+/*HTML*/
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, h5, li, p {
+    color: lightseagreen;   
+}
+
+h1 {
+    letter-spacing: 15px;
+}
+
+/*Navbar*/
+
 #nav {
     margin: 10px 0;
 }

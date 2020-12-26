@@ -1,0 +1,175 @@
+/*Contact*/
+
+.facebook {
+    font-size: 50px;
+    color: ivory;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+.facebook:hover {
+    font-size: 50px;
+    color: rgb(66, 103, 173);
+}
+
+.instagram {
+    font-size: 50px;
+    color: ivory;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+.instagram:hover {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+
+.youtube {
+    font-size: 50px;
+    color: ivory;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+  .youtube:hover {
+    color: red;
+    font-size: 50px;
+  }
+
+/**/
+ul li {
+    display: inline;
+}
+    
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+a {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*About*/
+
+.cointainer {
+    height: 500px;
+    width: 700px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.circle {
+    background-color: ivory;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#circle-00 {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    background: url(/pics/fej-pikto2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    box-shadow: 0px -10px 10px 10px lightseagreen;
+}
+
+#circle-01 {
+    position: absolute;
+    top: 200px;
+    box-shadow: 10px 10px 10px 10px lightseagreen;
+}
+
+#circle-02 {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    box-shadow: 0px 10px 10px 10px lightseagreen;
+}
+
+#circle-03 {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    box-shadow: -10px 10px 10px 10px lightseagreen;
+}
+
+.language {
+    position: relative;
+    top: 45px;
+    left: 10px;
+    width: 60px;
+    text-align: center;
+    margin: 3px;
+}
+
+#lang-en {
+    position: absolute;
+    top: 64.5px;
+    left: 80px;
+    width: 100px;
+    float: right;
+}
+
+#lang-ger {
+    position: absolute;
+    top: 88px;
+    left: 80px;
+    width: 70px;
+    float: right;
+}
+
+#lang-fr {
+    position: absolute;
+    top: 112px;
+    left: 80px;
+    width: 60px;
+    float: right;
+}
+
+.language-level {
+    margin: 3px;
+    text-align: center;
+    background-color: lightseagreen;
+    box-shadow: 0 0 3px;
+}
+
+#hobbies {
+    text-align: center;
+    color: black;
+}
+
+.fa-dumbbell {
+position: relative;
+right: 20px;
+}
+
+.fa-suitcase {
+position: relative;
+left: 20px;
+}
+
+.fa-music {
+position: relative;
+left: 75px;
+top: 120px;
+}

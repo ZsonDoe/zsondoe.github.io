@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet"  type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="components.css">
+    <link rel="stylesheet" type="text/css" href="base.css">
     <title>CV</title>
 </head>
 
 <body>
-    <img src="/pics/CVkép2.jpg" alt="Picture" class="right">
+    
 
     <div id="nav">
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">References</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="index-cv.html">CV</a></li>
             <li><a href="index-contact.html">Contact</a></li>
         </ul>
     </div> 
 
-    <div id="cv" class="right">
-        <div id="experiences">
+    <div class="cv">
+        <div class="cvpicture left box">
+            <img src="/pics/CVkép2.jpg" alt="Picture" style="width: 100%; height: 100%">
+        </div>
+        <div class="experiences left box">
             <h1>Tapasztalat</h1>
             <h3>Magyar Máltai Szeretetszolgálat</h3>
             <h5>Jelenlétház vezető</h5>
@@ -49,7 +53,7 @@
             <h5>Dohánybolti eladó</h5>
             <ul></ul>
         </div>
-        <div id="studies" class="right">
+        <div class="studies left box">
             <h1>Tanulmányok</h1>
             <h3>Károli Gáspár Református Egyetem</h3>
             <h5>Szociológia BA Diploma</h5>

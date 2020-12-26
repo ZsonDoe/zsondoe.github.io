@@ -1,0 +1,126 @@
+.zsoltgöbölyös {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.cv {
+    width: 80%;
+    height: 100%;
+    margin: auto auto;
+    background-color: black;
+    }
+
+.cvpicture {
+}
+
+.experiences {
+    padding: 2px;
+}
+
+.studies {  
+    padding: 2px;
+}
+
+.box {
+    height: 100%;
+    width: 32%;
+    margin: 5px;
+    display: inline;
+    border: 1px solid lightseagreen;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#contact-box {
+    width: 250px;
+    height: 200px;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: ivory;
+}
+
+#contact-ul {
+    list-style-type: none;
+}
+
+.welcome {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 120px;
+    margin: auto;
+    text-align: center;
+    background: #333;
+    border-radius: 12px;
+}
+
+#welcome img {
+    margin-top: -60px;
+}
+
+.imghead {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top:-60px;
+    left: -60px;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+figure {
+    text-align: center;
+}
+
+.fa-suitcase, .fa-dumbbell, .fa-music {
+    position: absolute;
+    font-size: 50px;
+    color: lightseagreen
+}
+
+.skillBox {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.skillBox p {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+.skillBox p:nth-child(2) {
+    float: right;
+    position: relative;
+    top: -15px;
+}
+
+.skill {
+    background: lightseagreen;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.skill_level {
+    background: black;
+    width: 100%;
+    height: 2px;
+}
+
+
+  
