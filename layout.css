@@ -1,6 +1,7 @@
 body {
     background: url(/assets/stefano-zocca-7mLBtcDJnUg-unsplash.jpg)no-repeat center center fixed;
     background-size: cover;
+    font-size: 1.125rem;
     color: rgb(190, 167, 97);
 }
 
@@ -70,6 +71,7 @@ border: 1px solid rgb(190, 167, 97);
     margin-left: -10%;
     position: absolute;
     
+    
 }
 
 img {
@@ -94,12 +96,12 @@ h1, h3 {
 }
 
 h1 {
-    font-size: 5vh;
+    font-size: 1.5rem;
     letter-spacing: 1vw;
 }
 
 h3 {
-    font-size: 3vh;
+    font-size: 1rem;
     text-align: justify;
     padding: 1vw;
 }
@@ -117,7 +119,7 @@ h3 {
 
 /*Social Media*/
 .facebook, .facebook:hover {
-    font-size: 8vh;
+    font-size: 2rem;
     position: relative;
 }
 
@@ -131,27 +133,79 @@ h3 {
 }
 
 .instagram, .instagram:hover {
-    font-size: 8vh;
+    font-size: 2rem;
     position: relative;
 }
 
 .instagram:hover {
     display: inline-block;
-    width: 8vh;
-    height: 8vh;
+    width: 2rem;
+    height: 2rem;
     border-radius: 0.75rem;
     color: #fff;
-    line-height: 10vh;
+    line-height: 2rem;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
   }
 
 .linkedin, .linkedin:hover {
-    font-size: 8vh;
+    font-size: 2rem;
     position: relative;
 }
 
   .linkedin:hover {
     color: #0072b1  
+  }
+
+  @media (max-width: 480px) {
+    .container,
+    .phoneNumber,
+    .socialMedia {
+        display: block;
+        width: 90%;
+        top: 20%;
+        margin-top: 0.5vh;
+        height: 40%;
+    }
+
+    .socialMedia,
+    .phoneNumber {
+        height: 20%;
+    }
+
+    .nameCard {
+        background-color: hsla(135, 25%, 56%, 0);
+        border: none;
+        box-shadow: none;  
+
+    }
+
+    .socialMedia {
+        display: inline-block;
+    }
+
+    .picture {
+        width: 60%;
+        height: 20%;
+        top: 0;
+        left: 15vw;
+        position: absolute;
+        
+    }
+    
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    li {
+        float: left;
+        margin: 7%;
+    }
+
   }
