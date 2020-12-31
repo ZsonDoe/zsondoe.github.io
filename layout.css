@@ -1,175 +1,157 @@
-/*Contact*/
+body {
+    background: url(/assets/stefano-zocca-7mLBtcDJnUg-unsplash.jpg)no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(190, 167, 97);
+}
 
-.facebook {
-    font-size: 50px;
-    color: ivory;
+.nameCard, 
+.container,
+.socialMedia,
+.phoneNumber,
+.picture,
+img {
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.container,
+.phoneNumber,
+.socialMedia {
+position: relative;
+background-color: hsla(133, 72%, 16%, 0.61);
+border: 1px solid rgb(190, 167, 97);
+}
+
+.nameCard {
     position: relative;
-    float: left;
-    margin: 5px;
-}
-
-.facebook:hover {
-    font-size: 50px;
-    color: rgb(66, 103, 173);
-}
-
-.instagram {
-    font-size: 50px;
-    color: ivory;
-    position: relative;
-    float: left;
-    margin: 5px;
-}
-
-.instagram:hover {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 12px;
-    color: #fff;
-    font-size: 50px;
-    line-height: 50px;
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-  }
-
-.youtube {
-    font-size: 50px;
-    color: ivory;
-    position: relative;
-    float: left;
-    margin: 5px;
-}
-
-  .youtube:hover {
-    color: red;
-    font-size: 50px;
-  }
-
-/**/
-ul li {
-    display: inline;
-}
+    margin: auto;
+    width: 50vw;
+    height: 92vh;
+    background-color: hsla(135, 25%, 56%, 0.3);
+    border: 1px solid hsla(133, 72%, 16%, 0.61);
+    box-shadow: 1px 1px 0px hsla(133, 72%, 16%, 0.61),
+    2px 2px 0px hsla(133, 72%, 16%, 0.61),
+    3px 3px 0px hsla(133, 72%, 16%, 0.61),
+    4px 4px 0px hsla(133, 72%, 16%, 0.61),
+    5px 5px 0px hsla(133, 72%, 16%, 0.61),
+    6px 6px 0px hsla(133, 72%, 16%, 0.61);
     
-.right {
-    float: right;
 }
+
+.container {
+    width: 90%;
+    height: 40%;
+    left: 5%;
+    top: 5%;
+}
+
+.socialMedia {
+    width: 40%;
+    height: 40%;
+    left: 5%;
+    top: 15%;;
+
+}
+
+.phoneNumber {
+    width: 40%;
+    height: 40%;
+    right: 5%;
+    top: 15%;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.picture {
+    width: 20%;
+    height: 20%;
+    left: 50%;
+    margin-left: -10%;
+    position: absolute;
+    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border: 3px solid rgb(190, 167, 97);
+}
+
+ul {
+    list-style-type: none; 
+    width: min-content;
+    padding: 0;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+h1, h3 {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+    letter-spacing: 1vw;
+}
+
+h3 {
+    font-size: 3vh;
+    text-align: justify;
+    padding: 1vw;
+}
+
+
+/*Layout*/
 
 .left {
     float: left;
 }
 
-a {
-    text-align: center;
-    vertical-align: middle;
+.right {
+    float: right;
 }
 
-/*About*/
-
-.cointainer {
-    height: 500px;
-    width: 700px;
-    background-color: black;
-    margin: auto;
+/*Social Media*/
+.facebook, .facebook:hover {
+    font-size: 8vh;
     position: relative;
-    top: 50px;
 }
 
-.circle {
-    background-color: ivory;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+.facebook, .instagram, .linkedin {
+    color: rgb(190, 167, 97);
+    margin-top: 2vh;
 }
 
-#circle-00 {
-    position: absolute;
-    top: 0;
-    left: 250px;
-    background: url(/pics/fej-pikto2.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 200px;
-    box-shadow: 0px -10px 10px 10px lightseagreen;
+.facebook:hover {
+    color: rgb(66, 103, 173);
 }
 
-#circle-01 {
-    position: absolute;
-    top: 200px;
-    box-shadow: 10px 10px 10px 10px lightseagreen;
-}
-
-#circle-02 {
-    position: absolute;
-    top: 300px;
-    left: 250px;
-    box-shadow: 0px 10px 10px 10px lightseagreen;
-}
-
-#circle-03 {
-    position: absolute;
-    top: 200px;
-    right: 0;
-    box-shadow: -10px 10px 10px 10px lightseagreen;
-}
-
-.language {
+.instagram, .instagram:hover {
+    font-size: 8vh;
     position: relative;
-    top: 45px;
-    left: 10px;
-    width: 60px;
-    text-align: center;
-    margin: 3px;
 }
 
-#lang-en {
-    position: absolute;
-    top: 64.5px;
-    left: 80px;
-    width: 100px;
-    float: right;
+.instagram:hover {
+    display: inline-block;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 0.75rem;
+    color: #fff;
+    line-height: 10vh;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+
+.linkedin, .linkedin:hover {
+    font-size: 8vh;
+    position: relative;
 }
 
-#lang-ger {
-    position: absolute;
-    top: 88px;
-    left: 80px;
-    width: 70px;
-    float: right;
-}
-
-#lang-fr {
-    position: absolute;
-    top: 112px;
-    left: 80px;
-    width: 60px;
-    float: right;
-}
-
-.language-level {
-    margin: 3px;
-    text-align: center;
-    background-color: lightseagreen;
-    box-shadow: 0 0 3px;
-}
-
-#hobbies {
-    text-align: center;
-    color: black;
-}
-
-.fa-dumbbell {
-position: relative;
-right: 20px;
-}
-
-.fa-suitcase {
-position: relative;
-left: 20px;
-}
-
-.fa-music {
-position: relative;
-left: 75px;
-top: 120px;
-}
+  .linkedin:hover {
+    color: #0072b1  
+  }
