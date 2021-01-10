@@ -1,12 +1,17 @@
-*{
+
+
+html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 0.5rem;
+    text-align: center;
 }
 
 body {
-    background-color: rgb(5, 65, 5);
+    background: url(/assets/linh-pham-6vdNPL3a5SE-unsplash.jpg) fixed;
+    background-size: cover;
+
 }
 
 /*Top*/
@@ -14,32 +19,31 @@ body {
 .navPics {
     text-align: center;
     background-color: rgb(5, 65, 5);
-    width: 100%;
-    border: 1px solid black;
-    border-bottom: none;
-    
+    width: 100%; 
+    margin: 0;
 }
 
 img {
-    width: 24.8%;
+    width: 25%;
     height: 100%;
     margin: 0;
-    padding-top: 1px;
-    border: 1px solid black;
+    float: left;
 }
 
 /*Welcome*/
 
 .welcome {
-    height: 7.5rem;
     width: 100%;
     background-color: rgb(5, 65, 5);
+    margin: 0;
+    margin-bottom: 1rem;
 }
 
 h1, p {
     text-align: center;
     line-height: 3.75rem;
     color: yellow;
+    margin: 0;
 }
 
 h1 {
@@ -56,8 +60,6 @@ p {
     height: 100%;
     width: 100%;
     position: relative;
-    background: url(/assets/linh-pham-6vdNPL3a5SE-unsplash.jpg) fixed;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -68,7 +70,8 @@ p {
     width: 20%;
     position: absolute;
     background-color: rgb(110, 134, 60, 0.5);
-    
+    border-radius: 10px;
+    border: 1px solid yellow;
 }
 
 .information ul li {
@@ -91,13 +94,13 @@ text-align: center;
 }
 
 .prices {
-    height: 225rem;
-    width: 60%;
-    position: absolute;
-    margin: 0 20% 0;
+    width: 58%;
+    margin: 0 21% 0 21%;
     background-color: rgba(56, 119, 31, 0.7);
     text-align: center;
     flex: 1;
+    border-radius: 10px;
+    border: 1px solid yellow;
 }
 
 .prices ul li {
@@ -114,9 +117,18 @@ text-align: center;
     color: yellow;
 }
 
-footer {
+.company {
+    background-color: rgb(110, 134, 60, 0.5);
     text-align: center;
-    
+    font-size: 2vw;  
+    color: yellow;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    margin-top: 1rem;
+}
+
+.company ul li {
+    list-style-type: none;
 }
 
 
@@ -124,7 +136,7 @@ footer {
 
 @media (max-width: 980px) {
     img {
-        width: 24%;
+        width: 25%;
     }
 
     h1 {
@@ -141,11 +153,11 @@ footer {
     }
 
     .information, .contact, .prices {
-        width: 90%;
+        width: 98%;
         position: relative;
-        margin: 0 5% 2% 5%;
+        margin: 0 1% 2% 1%;
         border: 1px solid black;
-        border-radius: 0.5rem;
+        border-radius: 10px;
     }
 
     .prices {
@@ -154,6 +166,10 @@ footer {
 
     .prices ul li {
         font-size: 4vw;
+    }
+    .prices li {
+        display:inline-block;
+        margin-right:10%;
     }
 
     .contact ul li {
@@ -189,9 +205,11 @@ footer {
         text-align: center;
         background-color: rgb(110, 134, 60, 0.5);
         color: yellow;
+        margin: 0 1% 0 1%;
     }
 
     .company ul li {
         font-size: 2vw;
+        list-style-type: none;
     }
 }
