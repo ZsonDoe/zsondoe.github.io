@@ -1,0 +1,64 @@
+@media (max-width: 500px) {
+
+    .head {
+        width: 98%;
+        margin: 0 1% 0 1%;
+    }
+
+    .welcome {
+        height: 3rem;
+        line-height: 1.5rem;
+        
+    }
+
+    .information, .contact, .prices {
+        width: 98%;
+        position: relative;
+        margin: 0 1% 2% 1%;
+    }
+
+    .right, .left {
+        width: 45%;
+        margin:  1rem 0.5rem;
+    }
+
+    .prices p {
+        font-size: 2vw;
+    }
+
+    .contact p {
+        font-size: 4vw;
+    }
+
+    .information ul li {
+        font-size: 4vw;
+    }
+
+    .information h1 {
+        font-size: 3.5vw;
+    }
+
+    .company {
+        text-align: center;
+        background-color: rgb(110, 134, 60, 0.5);
+        margin: 0 1% 0 1%;
+    }
+
+    .company ul li {
+        font-size: 2vw;
+        list-style-type: none;
+    }
+
+    
+}
+
+@media (min-width: 980px) {
+    .prices-line {
+        height: 20rem;
+    }
+
+    .welcome {
+        height: 7rem;
+        line-height: 3.5rem;
+    }
+}
