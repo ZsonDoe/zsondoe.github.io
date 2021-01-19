@@ -30,12 +30,21 @@
         font-size: 4vw;
     }
 
+    .contact h1 {
+        font-size: 5vw;
+    }
+
     .information ul li {
         font-size: 4vw;
     }
 
     .information h1 {
-        font-size: 3.5vw;
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    .information p {
+        font-size: 4vw;
     }
 
     .company {
@@ -48,6 +57,11 @@
         font-size: 2vw;
         list-style-type: none;
     }
+
+    .second-headline {
+        margin-bottom: 1rem;
+    }
+
 
     
 }
