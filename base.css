@@ -199,7 +199,6 @@ text-align: center;
     background-color: rgb(110, 134, 60, 0.5);
     text-align: center;
     font-size: 2vw;  
-    color: white;
     border-radius: 10px;
     border: 1px solid black;
     margin-top: 1rem;
@@ -208,6 +207,7 @@ text-align: center;
 .company ul li {
     list-style-type: none;
     display: inline-block;
+    color: white;
 }
 
 ul {
@@ -222,5 +222,5 @@ li {
 
 a {
     color: snow;
-    font-size: 2vw;
 }
+

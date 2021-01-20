@@ -11,6 +11,10 @@
         
     }
 
+    .welcome h1 {
+        font-size: 3.5vw;
+    }
+
     .information, .contact, .prices {
         width: 98%;
         position: relative;
@@ -23,7 +27,7 @@
     }
 
     .prices p {
-        font-size: 2vw;
+        font-size: 3.5vw;
     }
 
     .contact p {
@@ -54,15 +58,13 @@
     }
 
     .company ul li {
-        font-size: 2vw;
+        font-size: 4vw;
         list-style-type: none;
     }
 
     .second-headline {
         margin-bottom: 1rem;
     }
-
-
     
 }
 
