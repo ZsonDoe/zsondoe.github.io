@@ -91,7 +91,7 @@ p.second-headline {
 
 .information, .contact {
     height: 100%;
-    width: 20%;
+    width: 25%;
     position: absolute;
     background-color: rgb(110, 134, 60, 0.7);
     border-radius: 10px;
@@ -108,6 +108,7 @@ p.second-headline {
 .information h1 {
     font-size: 2vw;
     color: snow;
+    margin: 0;
 }
 
 /*.contact*/
@@ -131,8 +132,8 @@ text-align: center;
 /*.prices*/
 
 .prices {
-    width: 58%;
-    margin: 0 21% 0 21%;
+    width: 48%;
+    margin: 0 26% 0 26%;
     background-color: rgba(56, 119, 31, 0.8);
     text-align: center;
     flex: 1;
@@ -141,8 +142,8 @@ text-align: center;
 }
 .prices-line {
     height: 15rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -162,7 +163,7 @@ text-align: center;
 .right {
     float: right;
     background-color: salmon;
-    margin-right: 4rem;
+    margin-right: 7.5%;
 }
 
 .right-inside {
@@ -173,7 +174,7 @@ text-align: center;
 .left {
     float: left;
     background-color: sandybrown;
-    margin-left: 4rem;
+    margin-left: 7.5%;
 }
 
 .left-inside {
@@ -190,7 +191,7 @@ text-align: center;
 .prices p {
     margin: 0;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /*Footer*/
