@@ -6,13 +6,17 @@
     }
 
     .welcome {
-        height: 4rem;
-        line-height: 2rem;
-        
+        height: 100%;
+        line-height: 3rem;
+        top: 0;  
     }
 
     .welcome h1 {
-        font-size: 3.5vw;
+        font-size: 5vw;
+    }
+
+    .welcome p {
+        font-size: 4vw;
     }
 
     .information, .contact, .prices {
@@ -21,9 +25,22 @@
         margin: 0 1% 2% 1%;
     }
 
+    .prices-top {
+        width: 95%;
+        margin: 2rem 2.5% 2rem 2.5%;
+    }
+
     .right, .left {
         width: 45%;
         margin:  1rem 0.5rem;
+    }
+
+    .prices-top {
+        height: 30rem;
+    }
+
+    .prices-top-lyrics {
+        font-size: 4vw;
     }
 
     .prices p {
@@ -66,6 +83,10 @@
         margin-bottom: 1rem;
     }
     
+    .bankcard {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 }
 
 @media (min-width: 980px) {
