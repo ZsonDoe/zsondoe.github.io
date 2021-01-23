@@ -29,13 +29,14 @@ html {
 .navBar {
     border-bottom: 1px solid black;
     height: 2rem;
-    line-height: 2.5rem;
-    padding-bottom: 0.5rem;;
+    line-height: 2rem;
 }
 
 
 .slogen {
     text-align: center;
+    height: 5rem;
+    line-height: 2.5rem;
     background-color: green;
 }
 
@@ -105,12 +106,13 @@ html {
 
 .products-prices {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 15%;
     line-height: 1.7rem;
     bottom: 0;
-    margin-top: 4%;
-    background-color: green;
+    margin: auto 4%;
+    border: 1px solid green;
+    background-color: rgba(0, 128, 0, 0.7);
     font-family: 'Patrick Hand', cursive;
     border-radius: 2px;
 }
@@ -134,4 +136,5 @@ html {
 
 ul {
     list-style-type: none;
+    text-align: center;
 }
