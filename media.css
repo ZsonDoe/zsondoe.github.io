@@ -1,0 +1,112 @@
+@media (max-width: 480px) {
+
+    .red {
+        float: none;
+    }
+    
+    .green {
+        float: none;
+    }
+
+   .navBar {
+       text-align: center;
+       height: 6rem;
+   }
+
+   .navBar h3 {
+       width: 100%;
+       line-height: 1rem;
+   }
+
+   .information {
+       width: 100%;
+   }
+
+   .categories {
+       margin-bottom: 3rem;
+   }
+
+   .products {
+       position: relative;
+       right: 0.6rem;
+       width: 95%;
+       margin: 2.5% 0 2.5%;
+       float: right;
+   }
+
+   .products-box {
+       width: 45%;
+       height: 12rem;
+   }
+
+   .products-pics {
+    height: 50%;
+   }
+
+   .products-prices {
+       bottom: 3.5rem;
+       font-size: 1rem;
+       line-height: 1.2rem;
+   }
+
+   #flip1, #flip2, #flip3, #flip4, #flip5, #flip6 {
+       width: 50%;
+       font-size: 4vw;
+   }
+
+   #flip6 {
+       margin-bottom: 1rem;
+   }
+
+   .longDiv {
+       width: 50%;
+   }
+
+   .discount-line {
+    width: 25%;
+    font-size: 4vw;
+}
+
+    .second-headline {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .basket-btn {
+        height: 1.5rem;
+        line-height: 1.5rem;
+        width: 15%;
+    }
+
+    .fa-shopping-basket {
+        font-size: 0.7rem;
+    }
+
+    .acat {
+        font-size: 4vw;
+    }
+
+    .priceBox {
+        bottom: 0.1rem;
+    }
+
+    .choose {
+        bottom: 1.3rem;
+    }
+
+    .stickyBasket {
+        left: 2rem;
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .stickyBasket i {
+        font-size: 2rem;
+    }
+
+    .javaDiv {
+        width: 100%;
+        float: none;
+    }
+}
+
